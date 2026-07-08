@@ -18,7 +18,7 @@ body{
             justify-content:center;
             align-items:center;
             min-height:100vh;
-            background:linear-gradient(135deg,#4f46e5,#7c3aed,#06b6d4);
+            background:linear-gradient(135deg,#8E2DE2,#FF6FD8);
         }
 
         .container{
@@ -107,15 +107,15 @@ body{
         {% csrf_token %}
         <div>
             <label for="name">Name:</label>
-            <input id="name" name="name" type="text" placeholder="Put Your name">
+            <input id="name" name="name" type="text" placeholder="Enter Your Name">
         </div>
         <div>
             <label for="sbj">Subject:</label>
-            <input id="sbj" name="subject" type="text" placeholder="Put Your subject">
+            <input id="sbj" name="subject" type="text" placeholder="Enter Email Subject">
         </div>
         <div>
             <label for="msg">Message:</label>
-            <input id="msg" name="message" type="text" placeholder="Put Your message">
+            <input id="msg" name="message" type="text" placeholder="Share Your Message Here">
         </div>
         <input type="submit" , value="Send Mail">
 
